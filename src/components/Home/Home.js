@@ -9,8 +9,6 @@ import Quiz from '../Quiz/Quiz';
 
 const Home = () => {
 
-    const quizes = useLoaderData().data;
-    console.log(quizes);
 
     return (
         <div className='mt-5 container'>
@@ -66,7 +64,7 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
 
-            <div className='mt-5'>
+            {/* <div className='mt-5'>
 
                 {
                     quizes.map(quiz => <Quiz
@@ -74,7 +72,7 @@ const Home = () => {
                         quiz={quiz}></Quiz>)
                 }
 
-            </div>
+            </div> */}
 
         </div>
     );
