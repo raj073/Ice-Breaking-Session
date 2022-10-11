@@ -3,9 +3,15 @@ import Carousel from 'react-bootstrap/Carousel';
 import image1 from '../../images/1.jpg';
 import image2 from '../../images/2.jpg';
 import image3 from '../../images/3.jpg';
-import image4 from '../../images/4.jpg'
+import image4 from '../../images/4.jpg';
+import { useLoaderData } from 'react-router-dom';
+import Quiz from '../Quiz/Quiz';
 
 const Home = () => {
+
+    const quizes = useLoaderData().data;
+    console.log(quizes);
+
     return (
         <div className='mt-5 container'>
 
@@ -59,6 +65,16 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
+            <div className='mt-5'>
+
+                {
+                    quizes.map(quiz => <Quiz
+                        key={quiz.id}
+                        quiz={quiz}></Quiz>)
+                }
+
+            </div>
 
         </div>
     );
