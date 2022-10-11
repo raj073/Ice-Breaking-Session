@@ -14,36 +14,36 @@ const Home = () => {
                     <img
                         className="d-block w-100"
                         src={image1}
-                        alt="First slide"
+                        alt="MCQ Quiz Exam"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>MCQ Quiz Exam</h3>
+                        <p>Widely used in MCQ Examination, Surveys, Assessments and Recruitment, Optical Mark Recognition (OMR)</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={image2}
-                        alt="Second slide"
+                        alt="Rubik's Cube"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Rubik's Cube</h3>
+                        <p>Magic Cube, Speed Cube, Puzzle Cube, Cube</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={image3}
-                        alt="Third slide"
+                        alt="Standardized Test"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>Standardized Test</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            A standardized test is a test that is administered and scored in a consistent, or "standard", manner
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -51,11 +51,11 @@ const Home = () => {
                     <img
                         className="d-block w-100"
                         src={image4}
-                        alt="First slide"
+                        alt="Working as a Team"
                     />
                     <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Working as a Team</h3>
+                        <p>A successful team is one where everyone's unique skills and strengths help the team achieve a shared goal in the most effective way.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

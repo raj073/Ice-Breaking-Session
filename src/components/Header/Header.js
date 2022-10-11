@@ -20,26 +20,25 @@ const Header = () => {
 
                         </Nav>
                         <Nav className="gap-2">
+
                             <Nav.Link>
                                 <NavLink className="text-decoration-none text-white" to="/home">
                                     Home
                                 </NavLink>
                             </Nav.Link>
-                            <Nav.Link>
-                                <Link className="text-decoration-none text-white" to="/topics">
-                                    Topics
-                                </Link>
-                            </Nav.Link>
+
                             <Nav.Link>
                                 <Link className="text-decoration-none text-white" to="/statistics">
                                     Statistics
                                 </Link>
                             </Nav.Link>
+
                             <Nav.Link>
                                 <Link className="text-decoration-none text-white" to="/blog">
                                     Blog
                                 </Link>
                             </Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
