@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import './Statistics.css';
 
 const Statistics = () => {
 
@@ -13,7 +14,7 @@ const Statistics = () => {
 
             <h1 className='mb-5'>Session Name vs Total Quiz Chart: </h1>
 
-            <div>
+            <div className='chart-container'>
 
                 <LineChart width={700} height={500} data={quiz}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
@@ -24,6 +25,7 @@ const Statistics = () => {
                     <Tooltip></Tooltip>
                     <Legend />
                 </LineChart>
+
 
             </div>
 

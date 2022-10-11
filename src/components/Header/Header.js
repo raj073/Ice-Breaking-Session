@@ -22,7 +22,7 @@ const Header = () => {
                         <Nav className="gap-2">
 
                             <Nav.Link>
-                                <NavLink className="text-decoration-none text-white" to="/home">
+                                <NavLink className="text-decoration-none text-white" to="/">
                                     Home
                                 </NavLink>
                             </Nav.Link>

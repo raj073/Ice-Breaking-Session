@@ -66,7 +66,7 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
 
-            <div className='mt-5'>
+            <div className='mt-5 row row-cols-lg-4 row-cols-md-2 row-cols-1 py-3 gy-3'>
 
                 {
                     quizes.map(quiz => <Quiz
