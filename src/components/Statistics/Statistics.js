@@ -15,17 +15,17 @@ const Statistics = () => {
             <h1 className='mb-5'>Session Name vs Total Quiz Chart: </h1>
 
             <div className='chart-container'>
-
-                <LineChart width={700} height={500} data={quiz}
-                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-                    <Line type="monotone" dataKey="total" stroke="#82ca9d" />
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip></Tooltip>
-                    <Legend />
-                </LineChart>
-
+                <ResponsiveContainer width="100%" height={400}>
+                    <LineChart width={700} height={500} data={quiz}
+                        margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+                        <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Tooltip></Tooltip>
+                        <Legend />
+                    </LineChart>
+                </ResponsiveContainer>
 
             </div>
 
