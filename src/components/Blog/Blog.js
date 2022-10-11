@@ -5,6 +5,8 @@ const Blog = () => {
     return (
         <div className='container mt-5'>
 
+            <h1 className='text-center mb-5'>Frequently Asked Question</h1>
+
             <Accordion defaultActiveKey={['0']} alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header> <b>Q1. What is the Purpose of React Router?</b> </Accordion.Header>
