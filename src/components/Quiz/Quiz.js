@@ -18,7 +18,7 @@ const Quiz = ({ quiz }) => {
             <div>
 
                 <div className="col">
-                    <div className="card h-100 rounded-0 border-0 bg-dark">
+                    <div className="card h-100 rounded border-0 bg-dark">
                         <img src={logo} className="card-img-top" alt="Session_image" />
                         <div className="card-body bg-dark">
                             <h5 className="card-title fw-bold text-white text-center">
