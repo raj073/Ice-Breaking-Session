@@ -13,7 +13,12 @@ const Header = () => {
 
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark shadow" className="p-3">
                 <Container>
-                    <Navbar.Brand href="/">Ice Breaking Session</Navbar.Brand>
+                    <Nav.Link>
+                        <NavLink className="text-decoration-none text-white" to="/">
+                            <h3>Ice Breaking Session</h3>
+                        </NavLink>
+                    </Nav.Link>
+
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

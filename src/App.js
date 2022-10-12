@@ -40,14 +40,15 @@ function App() {
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
           element: <Statistics></Statistics>
+        },
+        {
+          path: '*', element: <div className='text-center bg-info m-5 p-5 rounded'>
+            <h2>404 Not Found <br /> This route is not found.</h2> </div>
         }
       ]
-    },
-
-    {
-      path: '*', element: <div className='text-center bg-info m-5 p-5 rounded'>
-        <h2>404 Not Found <br /> This route is not found.</h2> </div>
     }
+
+
 
   ])
 
