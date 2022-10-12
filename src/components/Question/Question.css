@@ -1,9 +1,10 @@
 .question-cart {
-    box-shadow: 5px 5px 5px #9fa1a3a8;
+    box-shadow: 8px 8px 8px 8px #9fa1a3a8;
     margin: 2%;
     padding: 2%;
     width: 100%;
     position: relative;
+    border-radius: 5px;
 }
 
 .question {
@@ -34,8 +35,8 @@
 }
 
 .option {
-    border: 2px solid #075b8f92;
-    border-radius: 4px;
+    border: 2px solid cadetblue;
+    border-radius: 2px;
     padding: 2%;
 }
 
@@ -44,11 +45,11 @@
 }
 
 .option:hover {
-    background-color: #0d88d4;
+    background-color: mediumturquoise;
     cursor: pointer;
 }
 
-/* Responsiveness for Small Device */
+/* mobile responsive */
 @media screen and (max-width:700px) {
     .question-options {
         display: grid;

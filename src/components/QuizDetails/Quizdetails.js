@@ -13,8 +13,11 @@ const Quizdetails = () => {
         <div className='container'>
 
             <div className='quizdetails-container'>
-                <h3>Quiz of : {name}</h3>
-                <p>Total number of quiz : {total}</p>
+                <div className='quizdetails-heading'>
+                    <h2>Ice Breaking Session</h2>
+                    <h3>Session/Quiz Topic : {name}</h3>
+                    <h4>Total number of quiz : {total}</h4>
+                </div>
                 {
                     questions?.map((question, idx) => <Question
                         key={question.id}

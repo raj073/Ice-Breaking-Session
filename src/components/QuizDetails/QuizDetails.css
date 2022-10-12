@@ -6,8 +6,17 @@
     margin-left: 15%;
     margin-right: 15%;
     align-items: center;
-    background-image: radial-gradient(#DCF5FC, #5bbeb1);
+    /* background-image: radial-gradient(#DCF5FC, #5bbeb1); */
     border-radius: 8px;
+}
+
+.quizdetails-heading {
+    box-shadow: 8px 8px 8px 8px #9fa1a3a8;
+    padding: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
 }
 
 /* Responsiveness */
