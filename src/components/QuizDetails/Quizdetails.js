@@ -12,11 +12,11 @@ const Quizdetails = () => {
     return (
         <div className='container'>
 
-            <div className='quiz-container'>
+            <div className='quizdetails-container'>
                 <h3>Quiz of : {name}</h3>
                 <p>Total number of quiz : {total}</p>
                 {
-                    questions.map((question, idx) => <Question
+                    questions?.map((question, idx) => <Question
                         key={question.id}
                         question={question}
                         index={idx}

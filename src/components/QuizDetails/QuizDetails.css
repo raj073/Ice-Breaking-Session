@@ -1,4 +1,4 @@
-.quiz-container {
+.quizdetails-container {
     padding: 3%;
     display: flex;
     flex-direction: column;
@@ -8,4 +8,12 @@
     align-items: center;
     background-image: radial-gradient(#DCF5FC, #5bbeb1);
     border-radius: 8px;
+}
+
+/* Responsiveness */
+@media screen and (max-width:700px) {
+    .quizdetails-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
