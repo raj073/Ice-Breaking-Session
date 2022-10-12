@@ -44,7 +44,10 @@ function App() {
       ]
     },
 
-    { path: '*', element: <div className='text-center'> 404 Not Found <br /> This route is not found.</div> }
+    {
+      path: '*', element: <div className='text-center bg-info m-5 p-5 rounded'>
+        <h2>404 Not Found <br /> This route is not found.</h2> </div>
+    }
 
   ])
 

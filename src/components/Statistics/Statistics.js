@@ -12,7 +12,7 @@ const Statistics = () => {
     return (
         <div className='container mt-5'>
 
-            <h1 className='mb-5'>Session Name vs Total Quiz Chart: </h1>
+            <h1 className='mb-5 ms-5'>Session/Quiz Name vs Total Quiz Chart: </h1>
 
             <div className='chart-container'>
                 <ResponsiveContainer width="100%" height={400}>
